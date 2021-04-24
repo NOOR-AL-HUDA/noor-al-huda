@@ -1,0 +1,17 @@
+@import "./variables";
+
+@mixin hoverfunc() {
+  // background-color: rgba(32, 191, 106, 0.5);s
+  color: $color-redshade;
+  transition: all 1s ease;
+  opacity: 0.6;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.253);
+}
+
+// @mixin header{
+
+// }
+
+// @mixin footer() {
+//   // footer here
+// }
