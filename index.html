@@ -14,11 +14,11 @@
       crossorigin="anonymous"
     />
 
-    <link rel="shorcut icon" href="./images/logo-favicon.png" />
+    <link rel="shorcut icon" href="./images/favicon.png" />
 
     <!-- My sass/css link -->
-    <link rel="stylesheet" href="./sass/main.css" />
-    <link rel="stylesheet" href="./sass/lightslider.css" />
+    <link rel="stylesheet" href="./stylesheet/main.css" />
+    <link rel="stylesheet" href="./stylesheet/lightslider.css" />
 
     <!-- font awesome -->
     <link
@@ -27,86 +27,103 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
-
-    <!-- my script file -->
-    <script type="text/javascript" src="./js/script.js"></script>
-<!--     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-        <script
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./js/lightslider.js"></script>
-    <script src="./js/brandslideshow.js"></script>
+    <script async src="./script/lightslider.js"></script>
+    <script async src="./script/index.js"></script>
+    <!-- <script async src="./public/bundle.js"></script> -->
   </head>
   <body>
     <!-- INFO -->
     <div class="info">
       <p>
-        <i class="fas fa-envelope"></i> info@nooralhudatrading.com
+        <i class="fas fa-envelope"></i>
+        <a href="mailto: info@nooralhudatrading.com" style="color: #fff"
+          >info@nooralhudatrading.com</a
+        >
         <span> | </span> <i class="fas fa-phone"></i>+971-585899289
       </p>
     </div>
 
     <!-- HEADER -->
     <header>
-      <a href="./index.html">
-        <div class="logo">
-          <img src="./images/logo.png" alt="" />
-        </div>
-      </a>
-
       <div class="navbar">
-        <nav
-          class="navbar navbar-expand-lg"
-          style="background-color: transparent"
-        >
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i
-              ></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="./team.html">Team</a>
-                </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-              </ul>
-              <!-- <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form> -->
-            </div>
+        <a href="./index.html">
+          <div class="logo">
+            <img src="./images/logo.png" alt="logo" />
           </div>
+        </a>
+        <nav class="navbarmenu">
+          <ul class="navbarlist">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./templates/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./templates/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./templates/contact.html">Contact</a>
+            </li>
+          </ul>
         </nav>
       </div>
+      <div class="mobilenavbar">
+        <nav>
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./templates/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./templates/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./templates/contact.html">Contact</a>
+            </li>
+
+            <!-- <button class="enquierbtnmnb" onclick="managecookies()">
+              Enquiry
+            </button> -->
+
+            <button
+              id="mobiledarkmodebtn"
+              class="darkmodebtn"
+              onclick="toggledarktheme()"
+            >
+              <i class="fas fa-moon" style="color: #fff"></i>
+            </button>
+            <a class="enquirebtnmnb" href="./templates/contact.html">
+              Enquiry
+            </a>
+          </ul>
+          <!-- <button class="enquierbtnmnb" onclick="managecookies()">
+            Enquiry
+          </button> -->
+        </nav>
+      </div>
+      <div class="rightsidebtns">
+        <button
+          id="navdarkmodebtn"
+          class="darkmodebtn"
+          onclick="toggledarktheme()"
+        >
+          <i class="fas fa-moon"></i>
+        </button>
+        <!-- <button class="enquierbtn" onclick="managecookies()">Enquiry</button> -->
+        <a class="enquirebtn" href="./templates/contact.html"> Enquiry </a>
+      </div>
+      <button class="navbartogglebtn" onclick="togglenavbtn()">
+        <i class="fas fa-bars"></i>
+      </button>
     </header>
 
     <!-- HERO-HEADER -->
@@ -159,34 +176,46 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./images/Rice.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="./images/flour2.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
               <img
-                src="./images/category/pulses/cereals.jpg"
+                src="./images/rice_flour/Rice.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="rice"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./images/category/pulses/pulses.jpg"
+                src="./images/rice_flour/flour2.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="flour"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./images/category/vegtables/cornPSIZE.jpg"
+                src="./images/pulses_spices_grains/cereals.jpg"
                 class="d-block w-100"
-                alt="..."
+                alt="cereals"
               />
             </div>
             <div class="carousel-item">
-              <img src="./images/bag.png" class="d-block w-100" alt="..." />
+              <img
+                src="./images/pulses_spices_grains/pulses.jpg"
+                class="d-block w-100"
+                alt="pulses"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/pulses_spices_grains/cornPSIZE.jpg"
+                class="d-block w-100"
+                alt="corn"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/rice_flour/bag.jpg"
+                class="d-block w-100"
+                alt="bag"
+              />
             </div>
           </div>
           <button
@@ -213,99 +242,111 @@
 
     <!-- PRODUCTS -->
     <div class="product">
-      <h2>PRODUCTS</h2>
+      <h2>PRODUCTS CATEGORIES</h2>
 
       <div class="container">
         <div class="row">
           <div class="col-md">
-            <div class="card">
-              <img
-                src="./images/category/rice/Basmati-Rice.jpg"
-                class="card-img-top"
-                alt="..."
-                style="height: 16rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Rice</h5>
-                <p class="card-text">Basmati and Sella Rice</p>
+            <a href="./templates/sub_category/category-rice.html">
+              <div class="card">
+                <img
+                  src="./images/rice_flour/Basmati-Rice.jpg"
+                  class="card-img-top"
+                  alt="bacmati rice"
+                  style="height: 16rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Rice</h5>
+                  <p class="card-text">Basmati and Sella Rice</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-md">
-            <div class="card">
-              <img
-                src="./images/category/pulses/turmeric.jpg"
-                class="card-img-top"
-                alt="..."
-                style="height: 16rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Spices and Herbs</h5>
-                <p class="card-text">Fresh High Quality Spices</p>
+            <a href="./templates/sub_category/category-spices.html">
+              <div class="card">
+                <img
+                  src="./images/pulses_spices_grains/turmeric.jpg"
+                  class="card-img-top"
+                  alt="turmeric powder"
+                  style="height: 16rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Spices and Herbs</h5>
+                  <p class="card-text">Fresh High Quality Spices</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-md">
-            <div class="card">
-              <img
-                src="./images/category/vegtables/oatmeal.jpg"
-                class="card-img-top"
-                alt="..."
-                style="height: 16rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Grains & Cereals</h5>
-                <p class="card-text">High Quality Grain & Cereals</p>
+            <a href="./templates/sub_category/category-grains.html">
+              <div class="card">
+                <img
+                  src="./images/pulses_spices_grains/oatmeal.jpg"
+                  class="card-img-top"
+                  alt="oatmeal"
+                  style="height: 16rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Grains & Cereals</h5>
+                  <p class="card-text">High Quality Grain & Cereals</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="row">
           <div class="col-md">
-            <div class="card">
-              <img
-                src="./images/flour.jpg"
-                class="card-img-top"
-                alt="..."
-                style="height: 16rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Flour</h5>
-                <p class="card-text">Flour Products</p>
+            <a href="./templates/sub_category/category-flour.html">
+              <div class="card">
+                <img
+                  src="./images/rice_flour/flour.jpg"
+                  class="card-img-top"
+                  alt="flour"
+                  style="height: 16rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Flour</h5>
+                  <p class="card-text">Flour Products</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-md">
-            <div class="card">
-              <img
-                src="./images/category/pulses/black eyed peas.jpg"
-                class="card-img-top"
-                alt="..."
-                style="height: 16rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Pulses & Beans</h5>
-                <p class="card-text">High Quality Pulses and beans</p>
+            <a href="./templates/sub_category/category-pulses-beans.html">
+              <div class="card">
+                <img
+                  src="./images/pulses_spices_grains/black eyed peas.jpg"
+                  class="card-img-top"
+                  alt="black eye peas"
+                  style="height: 16rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pulses & Beans</h5>
+                  <p class="card-text">High Quality Pulses and beans</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="col-md">
-            <div class="card">
-              <img
-                src="./images/category/oil.jpg"
-                class="card-img-top"
-                alt="..."
-                style="height: 16rem"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Oils</h5>
-                <p class="card-text">All kind of Oils</p>
+            <a href="./templates/sub_category/category-oils.html">
+              <div class="card">
+                <img
+                  src="./images/pulses_spices_grains/oil.jpg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 16rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Oils</h5>
+                  <p class="card-text">All kind of Oils</p>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -357,43 +398,50 @@
               </li> -->
               <li class="item-a">
                 <img
-                  src="./images/assets/hilton.jpeg"
+                  src="./images/partners/asterL.jpg"
                   alt="partner-brands-images"
                 />
               </li>
               <li class="item-a">
                 <img
-                  src="./images/assets/Movenpick.jpeg"
+                  src="./images/partners/hilton.jpg"
                   alt="partner-brands-images"
                 />
               </li>
               <li class="item-a">
                 <img
-                  src="./images/assets/sofital.jpeg"
+                  src="./images/partners/waldorf_astoria.jpg"
                   alt="partner-brands-images"
                 />
               </li>
               <li class="item-a">
                 <img
-                  src="./images/assets/primeMC.jpeg"
+                  src="./images/partners/Movenpick.jpg"
+                  alt="partner-brands-images"
+                />
+              </li>
+
+              <li class="item-a">
+                <img
+                  src="./images/partners/radisson.jpg"
                   alt="partner-brands-images"
                 />
               </li>
               <li class="item-a">
                 <img
-                  src="./images/assets/radisson.jpeg"
+                  src="./images/partners/skhospital.jpg"
                   alt="partner-brands-images"
                 />
               </li>
               <li class="item-a">
                 <img
-                  src="./images/assets/waldorf_astoria.jpeg"
+                  src="./images/partners/sofital.jpg"
                   alt="partner-brands-images"
                 />
               </li>
               <li class="item-a">
                 <img
-                  src="./images/assets/skhospital.jpg"
+                  src="./images/partners/primeMC.jpg"
                   alt="partner-brands-images"
                 />
               </li>
@@ -418,6 +466,12 @@
             <!-- <li><a href="./team.html">Team</a></li>
             <hr> -->
             <li><a href="./contact.html">Contact</a></li>
+            <hr />
+            <li>
+              <a href="./templates/termsandconditions.html"
+                >Terms & Conditions</a
+              >
+            </li>
             <hr />
           </ul>
         </div>
@@ -465,6 +519,8 @@
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <!-- my script file -->
+    <!-- <script type="text/javascript" src="./js/script.js"></script> -->
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

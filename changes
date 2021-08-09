@@ -1,0 +1,37 @@
+tags:
+	node typescript/javascript sass webpack
+
+main:
+    
+    fix contact form/ send email        
+
+Fixed:    
+    saving dark mode vals in local storage*
+    contact form fix*
+    addition of get in touch button*
+    dark mode*
+    scroll bar*
+    resize image*
+    logo fix => resize, transparent bg*
+    addition of alt*
+    addition of meta description*
+    enquiry button*
+    sub-cat block and enquiry button*
+    404 page*
+    hamburger menu fix*
+    toast message on email sent*
+    fix all enquiry btn*
+
+
+addition of
+    change of animation
+    typescript
+    webpack
+
+(if posible)
+    custom loader
+    policy page
+    terms and conditions page
+
+
+light-house report
