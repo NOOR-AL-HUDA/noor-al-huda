@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.cat-main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.cat-main .image {
+  width: 100%;
+  height: 70vh;
+}
+
+.cat-main .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.cat-main .categories {
+  max-width: 1200px;
+  margin: 2rem 0;
+}
+
+.cat-main .categories > h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.cat-main .categories .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0;
+  margin-top: 5rem;
+}
+
+.cat-main .categories .list ul li {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 250px;
+  height: auto;
+  padding: 1rem;
+  margin: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.274);
+          box-shadow: 0 2px 12px rgba(0, 0, 0, 0.274);
+}
+
+.cat-main .categories .list ul a {
+  width: 10rem;
+  height: 2.5rem;
+  text-transform: uppercase;
+  margin: 1rem 0 0 0;
+  border: none;
+  background-color: #27ae60;
+  color: #fff;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.cat-main .categories .list ul a:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .categories .list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .categories .list .first {
+    margin-left: -2.5rem;
+  }
+  .list li {
+    margin: 1rem;
+  }
+}
+/*# sourceMappingURL=prodcategory.css.map */
