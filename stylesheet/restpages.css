@@ -308,7 +308,7 @@ body li {
 
 .contactusdiv {
   width: 100vw;
-  height: 120vh;
+  height: auto;
   margin: 0;
   padding: 2rem;
 }
