@@ -313,6 +313,12 @@ body li {
   padding: 2rem;
 }
 
+@media (max-width: 768px) {
+  .contactusdiv {
+    padding: 1rem;
+  }
+}
+
 .contactusdiv .detail {
   margin-top: 2rem;
   display: -webkit-box;
@@ -341,7 +347,7 @@ body li {
 }
 
 .contactusdiv .map iframe {
-  width: 100%;
+  width: 99%;
   height: 60vh;
 }
 
