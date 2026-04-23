@@ -12,7 +12,7 @@ export default defineConfig(() => ({
   //   },
   // },
   plugins: [react()].filter(Boolean),
-   base: 'nooralhudatrading.com',
+   base: '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
