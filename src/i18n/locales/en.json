@@ -1,0 +1,218 @@
+{
+  "brand": {
+    "name": "Noor Al Huda Trading",
+    "short": "Noor Al Huda",
+    "tagline": "UAE • Established FMCG Trader"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "news": "News & Events",
+    "careers": "Careers",
+    "sustainability": "Sustainability",
+    "contact": "Contact",
+    "enquire": "Enquire Now",
+    "language": "العربية"
+  },
+  "hero": {
+    "eyebrow": "UAE • Established FMCG Trader",
+    "title_pre": "Premium",
+    "title_words": ["Agro", "Rice", "Flour","Sugar", "Oils", "Spices"],
+    "title_line2": "Delivered",
+    "title_line3": "Worldwide.",
+    "subtitle": "Noor Al Huda Trading LLC is a UAE-based FMCG company dealing in rice, spices, grains, flour, pulses and oils — sourcing from origin and supplying trusted hospitality and retail brands across the globe.",
+    "cta_products": "Explore Products",
+    "cta_enquire": "Enquire Now",
+    "scroll": "Scroll to discover"
+  },
+  "sections": {
+    "hero": "Welcome",
+    "intro": "Who we are",
+    "categories": "Categories",
+    "why": "Why us",
+    "partners": "Partners",
+    "news": "News",
+    "cta": "Get in touch"
+  },
+  "intro": {
+    "eyebrow": "About",
+    "title": "A trusted name in agro commodities since our first shipment.",
+    "body": "From our headquarters in Dubai, we connect origin farms across India, Pakistan and the wider region with hotels, hospitals, distributors and retailers across the GCC, Asia and beyond. Quality, traceability and on-time delivery are non-negotiable.",
+    "stat_years": "Years of trading",
+    "stat_partners": "B2B partners served",
+    "stat_skus": "Active SKUs",
+    "stat_countries": "Countries shipped to"
+  },
+  "categories_block": {
+    "eyebrow": "What we trade",
+    "title": "Eleven categories. One quality standard.",
+    "subtitle": "Explore our full FMCG catalogue — from flagship basmati rice to oils, sweeteners and ready-to-eat staples.",
+    "view_all": "View full catalogue"
+  },
+  "why": {
+    "eyebrow": "Why partner with us",
+    "title": "Sourced from origin. Supplied with care.",
+    "items": [
+      { "title": "Origin sourcing", "body": "Direct relationships with mills, farms and producers across India, Pakistan and the GCC." },
+      { "title": "Quality assured", "body": "Every consignment moisture-tested, sorted and inspected before dispatch." },
+      { "title": "Flexible packaging", "body": "Private label, bulk bags 5kg / 25kg / 50kg, and custom retail formats." },
+      { "title": "On-time delivery", "body": "FCL, LCL and last-mile UAE distribution from our Warsan warehouse." }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Trusted by",
+    "title": "Hospitality, healthcare and retail leaders.",
+    "subtitle": "We supply some of the most recognised hospitality and healthcare brands operating in the UAE and the wider region."
+  },
+  "news_block": {
+    "eyebrow": "News & Events",
+    "title": "What we're working on.",
+    "view_all": "All news"
+  },
+  "cta_band": {
+    "eyebrow": "Let's talk volumes",
+    "title": "Ready to source the best for your kitchen, retail floor or distribution network?",
+    "body": "Send us a quick enquiry and one of our trade specialists will respond within one business day.",
+    "cta": "Request a quote"
+  },
+  "about_page": {
+    "eyebrow": "About us",
+    "title": "A young, dynamic agro-commodity trader from the UAE.",
+    "lead": "Noor Al Huda is built around three commitments — superior product, transparent dealing and reliable delivery.",
+    "p1": "We are a UAE-headquartered FMCG trading company supplying rice, spices, grains, flour, pulses and oils to hospitality, healthcare and retail clients in the UAE, GCC and beyond.",
+    "p2": "Our reputation has been earned in a short span — through hard work, performance excellence and adherence to the highest quality standards. We are geared up to meet the increased demands of today's customers without compromise.",
+    "p3": "Today we are proudly supported by a worldwide customer base, growing every day on the strength of our experience, with a single promise: to deliver only premium quality products under our brand.",
+    "values_title": "What we stand for",
+    "values": [
+      { "t": "Integrity", "d": "Honest weights, honest specs, honest pricing — every shipment, every time." },
+      { "t": "Quality", "d": "Inspected at origin, inspected at port, inspected before dispatch." },
+      { "t": "Partnership", "d": "We grow when our buyers grow. Long-term relationships over single transactions." },
+      { "t": "Speed", "d": "From RFQ to quotation in 24 hours; from order to dispatch as fast as the lane allows." }
+    ]
+  },
+  "products_page": {
+    "eyebrow": "Catalogue",
+    "title": "Premium FMCG categories.",
+    "subtitle": "Click any category to expand its sub-categories. All products available in standard and custom packaging.",
+    "rice_flag": "Our flagship",
+    "subcats": "Sub-categories",
+    "items": "items",
+    "enquire_cta": "Enquire about this category"
+  },
+  "contact_page": {
+    "eyebrow": "Contact",
+    "title": "Get in touch.",
+    "subtitle": "Send us an enquiry, drop a WhatsApp, or visit our Warsan warehouse.",
+    "address_label": "Visit us",
+    "address": "Warehouse #1, Warsan 3, Dubai, United Arab Emirates",
+    "phone_label": "Call",
+    "email_label": "Email",
+    "hours_label": "Working hours",
+    "hours": "Sun – Thu, 09:00 – 18:00 GST",
+    "form_title": "Send an enquiry",
+    "form_subtitle": "We respond to all RFQs within one business day."
+  },
+  "form": {
+    "name": "Full name",
+    "company": "Company name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "country": "Country",
+    "interest": "Product of interest",
+    "quantity": "Approx. quantity / volume",
+    "message": "Tell us about your requirement",
+    "submit": "Send enquiry",
+    "submitting": "Sending…",
+    "success": "Thank you — we'll be in touch within one business day.",
+    "error": "Something went wrong. Please try again or message us on WhatsApp.",
+    "throttled": "Please wait a moment before submitting again.",
+    "consent": "I agree to be contacted regarding my enquiry."
+  },
+  "news_page": {
+    "eyebrow": "Newsroom",
+    "title": "News & events.",
+    "subtitle": "Market updates, harvest reports, partnership announcements and a look behind the scenes at Noor Al Huda.",
+    "read": "Read article",
+    "back": "Back to all news",
+    "minutes": "min read"
+  },
+  "careers_page": {
+    "eyebrow": "Careers",
+    "title": "Build your career with us.",
+    "subtitle": "We're a small, ambitious team. If you bring discipline, curiosity and care, we'd love to hear from you.",
+    "form_title": "Application form",
+    "step": "Step",
+    "of": "of",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit application",
+    "steps": ["Personal", "Education", "Experience", "Documents", "Consent"],
+    "fields": {
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "nationality": "Nationality",
+      "work_auth": "Are you authorised to work in the UAE?",
+      "highest_edu": "Highest education",
+      "institution": "Institution",
+      "field": "Field of study",
+      "grad_year": "Graduation year",
+      "current_role": "Current / most recent role",
+      "current_company": "Current / most recent employer",
+      "years_experience": "Years of experience",
+      "linkedin": "LinkedIn URL (optional)",
+      "resume": "Upload résumé (PDF)",
+      "cover": "Cover letter (optional)",
+      "source": "How did you hear about us?",
+      "consent_data": "I consent to Noor Al Huda Trading processing my data for recruitment purposes.",
+      "consent_eeo": "I confirm the information provided is true and complete."
+    }
+  },
+  "sustainability_page": {
+    "eyebrow": "Sustainability",
+    "title": "Sourcing responsibly. Trading thoughtfully.",
+    "lead": "Our long-term licence to operate depends on the health of the farms we source from, the people we employ and the communities we serve. We are early in this journey — and committed.",
+    "pillars": [
+      { "t": "Responsible sourcing", "d": "Direct relationships with mills and farms; preference for suppliers with documented water and soil-management practices." },
+      { "t": "Better packaging", "d": "Reducing single-use plastic, increasing recycled-content jute and paper sacks for bulk shipments." },
+      { "t": "People & community", "d": "Fair wages, safe warehousing and meaningful support for local food-bank initiatives in the UAE." },
+      { "t": "Climate & emissions", "d": "Lane consolidation, route optimisation and supplier-emissions tracking on our highest-volume SKUs." }
+    ]
+  },
+  "legal": {
+    "privacy_title": "Privacy Policy",
+    "terms_title": "Terms & Conditions",
+    "last_updated": "Last updated"
+  },
+  "footer": {
+    "tagline": "Premium agro commodities, delivered worldwide.",
+    "explore": "Explore",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "design": "Crafted in Dubai."
+  },
+  "cookies": {
+    "text": "We use cookies to improve your experience and analyse site traffic. Read our privacy policy for more.",
+    "accept": "Accept all",
+    "decline": "Essential only"
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp",
+    "prefilled": "Hello Noor Al Huda, I'd like to enquire about a bulk order."
+  },
+  "common": {
+    "learn_more": "Learn more",
+    "explore": "Explore",
+    "loading": "Loading…",
+    "not_found_title": "Page not found",
+    "not_found_body": "The page you're looking for doesn't exist or has been moved.",
+    "back_home": "Back to home"
+  }
+}
